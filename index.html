@@ -5,13 +5,40 @@
     <title>موقــعي</title>
 
     <!-- 👇هنا style قم بإضافة وسم   -->
-    
+    <style>
+h1{
+    color: brown;
+}
+img{
+    display: block;
+}
+.name{
+    text-align: center;
+}
+,ps4{
+    background-color: darkblue;
+}
+.nintendo{
+    background-color: red;
+}
+.pc{
+    background-color: green;
+}
+    </style>
 
 </head>
 <body>
     <!-- اكتب اسمك بعد مرحباً، -->
     <!-- headالى ال cssثم غير لون الخط عن طريق اضافة كود   -->
-    <h1>مرحبا، انا اسمي</h1>
+    <h1 class="name"> مرحبا، محمد </h1>
+
+
+
+
+
+    
+
+
 
 
     <!-- styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
@@ -26,7 +53,7 @@
      <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
      <div>
         <h3>منصات الالعاب المتوفره</h3>
-        <ul>
+        <ul style="list-style-type: none;"
             <li>PS4</li>
             <li>nintendo switch</li>
             <li>PC</li>
@@ -46,7 +73,7 @@
             <th>اللعبه المفضله</th>
             <th>المنصه</th>
         </tr>
-        <tr>
+        <tr class="ps4">
             <td>احمد</td>
             <td>16</td>
             <td>call of duty</td>
